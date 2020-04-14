@@ -53,10 +53,11 @@
 				</li>
 			</value>
 		</li>
-		<li Class="PatchOperationAdd">
+		<li Class="PatchOperationReplace">
 			<xpath>/Defs/RecipeDef[defName="MakeAmmo_556x45mmNATO_FMJ"]/fixedIngredientFilter</xpath>
 			<value>
 					<thingDefs>
+					    <li>Steel</li>
 						<li>Chemfuel</li>
 						<li>CAL_Brass</li>
 						<li>CAL_Bronze</li>
