@@ -5,17 +5,12 @@
         <li>Combat Extended</li>
 		<li>Cupro's Alloys (Continued)</li>
     </mods>
-	<match Class="PatchOperationSequence">
-		<operations>
-		<success>Always</success>
+	<match Class="PatchOperationSequence">		
+	<success>Always</success>
+		<operations>	
 		
 		
-		
-		
-		
-		
-		
-				<!-- 7.62x54 mmR -->
+		<!-- 7.62x54 mmR -->
 		<!-- Full Metal Jacket -->
 		<li Class="PatchOperationReplace">
 		<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x54mmR_FMJ"]/ingredients</xpath>
