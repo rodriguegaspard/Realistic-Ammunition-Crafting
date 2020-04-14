@@ -6,6 +6,7 @@
 		<li>Cupro's Alloys (Continued)</li>
     </mods>
 	<match Class="PatchOperationSequence">
+	<success>Always</success>
 		<operations>
 		<!-- 5.56x45mm NATO -->
 				<!-- FMJ -->
@@ -273,9 +274,7 @@
 			</Operation>
 			
 			
-			
 					<!-- 762x51mmNATO -->
-		
 				<!-- FMJ -->
 			<Operation Class="PatchOperationReplace">
 			<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x51mmNATO_FMJ"]/ingredients</xpath>
@@ -539,8 +538,7 @@
 				</fixedIngredientFilter>
 			</value>
 			</Operation>
-			
 		</operations>
-	</Operation>
-</match>
+	</match>
+</Operation>
 </Patch>
