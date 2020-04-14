@@ -10,7 +10,7 @@
 		<operations>
 		<!-- 5.56x45mm NATO -->
 				<!-- FMJ -->
-		<Operation Class="PatchOperationReplace">
+		<li Class="PatchOperationReplace">
 		<xpath>/Defs/RecipeDef[defName="MakeAmmo_556x45mmNATO_FMJ"]/ingredients</xpath>
 			<value>
 				<li>
@@ -51,7 +51,7 @@
 					<count>57</count>
 				</li>
 			</value>
-		</Operation>
+		</li>
 		</operations>
 	</match>
 </Operation>
