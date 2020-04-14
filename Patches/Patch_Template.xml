@@ -231,7 +231,7 @@
 			</fixedIngredientFilter>
 			</value>
 		</li>
-		<!-- High-bigstuff -->
+		<!-- High-other -->
 		<li Class="PatchOperationReplace">
 		<xpath>/Defs/RecipeDef[defName="MakeAmmo_ammoname_HE"]/ingredients</xpath>
 			<value>
@@ -275,7 +275,7 @@
 							<li>FSX</li>
 						</thingDefs>
 					</filter>
-					<count>bigstuff</count>
+					<count>other</count>
 				</li>
 			</ingredients>
 			</value>
@@ -335,7 +335,7 @@
 							<li>Uranium</li>
 						</thingDefs>
 					</filter>
-					<count>bigstuff</count>
+					<count>other</count>
 				</li>
 			</ingredients>
 			</value>
