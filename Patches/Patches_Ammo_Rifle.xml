@@ -4167,19 +4167,16 @@
 			</fixedIngredientFilter>
 			</value>
 		</li>
-
+		
+				
 		
 		
 		
 		
-		
-		
-		
-		
-	    <!-- 127x55mm Sniper -->
+		<!-- 12x55 Sniper -->
 		<!-- Full Metal Jacket -->
 		<li Class="PatchOperationReplace">
-		<xpath>/Defs/RecipeDef[defName="MakeAmmo_ammoname_FMJ"]/ingredients</xpath>
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_127x55mmSniper_FMJ"]/ingredients</xpath>
 			<value>
 			<ingredients>
 				<li>
@@ -4188,7 +4185,7 @@
 							<li>CAL_Lead</li>
 						</thingDefs>
 					</filter>
-					<count>bullet</count>
+					<count>10</count>
 				</li>
 				<li>
 					<filter>
@@ -4196,7 +4193,7 @@
 							<li>CAL_Brass</li>
 						</thingDefs>
 					</filter>
-					<count>bullet</count>
+					<count>10</count>
 				</li>				
 				<li>
 					<filter>
@@ -4204,7 +4201,7 @@
 							<li>Chemfuel</li>
 						</thingDefs>
 					</filter>
-					<count>bullet</count>
+					<count>10</count>
 				</li>
 				<li>
 					<filter>
@@ -4214,13 +4211,13 @@
 							<li>Steel</li>
 						</thingDefs>
 					</filter>
-					<count>stuff</count>
+					<count>5</count>
 				</li>
 			</ingredients>
 			</value>
 		</li>
 		<li Class="PatchOperationReplace">
-			<xpath>/Defs/RecipeDef[defName="MakeAmmo_ammoname_FMJ"]/fixedIngredientFilter</xpath>
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_127x55mmSniper_FMJ"]/fixedIngredientFilter</xpath>
 			<value>
 			<fixedIngredientFilter>
 					<thingDefs>
@@ -4233,7 +4230,7 @@
 		</li>
 		<!-- Hollow Point -->
 		<li Class="PatchOperationReplace">
-		<xpath>/Defs/RecipeDef[defName="MakeAmmo_ammoname_HP"]/ingredients</xpath>
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_127x55mmSniper_HP"]/ingredients</xpath>
 			<value>
 			<ingredients>
 				<li>
@@ -4242,7 +4239,7 @@
 							<li>CAL_Lead</li>
 						</thingDefs>
 					</filter>
-					<count>bullet</count>
+					<count>10</count>
 				</li>
 				<li>
 					<filter>
@@ -4250,7 +4247,7 @@
 							<li>CAL_Brass</li>
 						</thingDefs>
 					</filter>
-					<count>bullet</count>
+					<count>10</count>
 				</li>				
 				<li>
 					<filter>
@@ -4258,7 +4255,7 @@
 							<li>Chemfuel</li>
 						</thingDefs>
 					</filter>
-					<count>bullet</count>
+					<count>10</count>
 				</li>
 				<li>
 					<filter>
@@ -4268,13 +4265,13 @@
 							<li>Steel</li>
 						</thingDefs>
 					</filter>
-					<count>stuff</count>
+					<count>5</count>
 				</li>
 			</ingredients>
 			</value>
 		</li>
 		<li Class="PatchOperationReplace">
-			<xpath>/Defs/RecipeDef[defName="MakeAmmo_ammoname_HP"]/fixedIngredientFilter</xpath>
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_127x55mmSniper_HP"]/fixedIngredientFilter</xpath>
 			<value>
 			<fixedIngredientFilter>
 					<thingDefs>
@@ -4287,7 +4284,7 @@
 		</li>
 		<!-- Armor-piercing -->
 		<li Class="PatchOperationReplace">
-		<xpath>/Defs/RecipeDef[defName="MakeAmmo_ammoname_AP"]/ingredients</xpath>
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_127x55mmSniper_AP"]/ingredients</xpath>
 			<value>
 			<ingredients>
 				<li>
@@ -4296,7 +4293,7 @@
 							<li>Steel</li>
 						</thingDefs>
 					</filter>
-					<count>bullet</count>
+					<count>10</count>
 				</li>
 				<li>
 					<filter>
@@ -4304,7 +4301,7 @@
 							<li>CAL_Brass</li>
 						</thingDefs>
 					</filter>
-					<count>bullet</count>
+					<count>10</count>
 				</li>				
 				<li>
 					<filter>
@@ -4312,7 +4309,7 @@
 							<li>Chemfuel</li>
 						</thingDefs>
 					</filter>
-					<count>bullet</count>
+					<count>10</count>
 				</li>
 				<li>
 					<filter>
@@ -4321,13 +4318,13 @@
 							<li>CAL_Cupronickel</li>
 						</thingDefs>
 					</filter>
-					<count>stuff</count>
+					<count>5</count>
 				</li>
 			</ingredients>
 			</value>
 		</li>
 		<li Class="PatchOperationReplace">
-			<xpath>/Defs/RecipeDef[defName="MakeAmmo_ammoname_AP"]/fixedIngredientFilter</xpath>
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_127x55mmSniper_AP"]/fixedIngredientFilter</xpath>
 			<value>
 			<fixedIngredientFilter>
 					<thingDefs>
@@ -4335,10 +4332,175 @@
 						<li>CAL_Cupronickel</li>
 					</thingDefs>
 			</fixedIngredientFilter>
+			</value>
+		</li>
+
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_127x55mmSniper_Sabot"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		
+		
+		
+		<!-- 300 AAC Blackout -->
+		<!-- Full Metal Jacket -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_300AACBlackout_FMJ"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Lead</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+							<li>CAL_Cupronickel</li>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+			</ingredients>
 			</value>
 		</li>
 		<li Class="PatchOperationReplace">
-			<xpath>/Defs/RecipeDef[defName="MakeAmmo_ammoname_Sabot"]/fixedIngredientFilter</xpath>
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_300AACBlackout_FMJ"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+					    <li>CAL_Brass</li>
+						<li>CAL_Cupronickel</li>
+						<li>Steel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Hollow Point -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_300AACBlackout_HP"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Lead</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+							<li>CAL_Copper</li>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_300AACBlackout_HP"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+							<li>CAL_Brass</li>
+							<li>CAL_Copper</li>
+							<li>Steel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Armor-piercing -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_300AACBlackout_AP"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_300AACBlackout_AP"]/fixedIngredientFilter</xpath>
 			<value>
 			<fixedIngredientFilter>
 					<thingDefs>
@@ -4348,6 +4510,3334 @@
 			</fixedIngredientFilter>
 			</value>
 		</li>
+		<!-- Armor-piercing incendiary -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_300AACBlackout_Incendiary"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Prometheum</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_300AACBlackout_Incendiary"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		
+		
+		<!-- High-8 -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_300AACBlackout_HE"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>FSX</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_300AACBlackout_HE"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Sabot -->	
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_300AACBlackout_Sabot"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Uranium</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_300AACBlackout_Sabot"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<!-- .303 British -->
+		<!-- Full Metal Jacket -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_303British_FMJ"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Lead</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+							<li>CAL_Cupronickel</li>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_303British_FMJ"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+					    <li>CAL_Brass</li>
+						<li>CAL_Cupronickel</li>
+						<li>Steel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Hollow Point -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_303British_HP"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Lead</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+							<li>CAL_Copper</li>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_303British_HP"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+							<li>CAL_Brass</li>
+							<li>CAL_Copper</li>
+							<li>Steel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Armor-piercing -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_303British_AP"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_303British_AP"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Armor-piercing incendiary -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_303British_Incendiary"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Prometheum</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_303British_Incendiary"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- High-8 -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_303British_HE"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>FSX</li>
+						</thingDefs>
+					</filter>
+					<count>8</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_303British_HE"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Sabot -->	
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_303British_Sabot"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Uranium</li>
+						</thingDefs>
+					</filter>
+					<count>8</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_303British_Sabot"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<!-- 4.73x33mm Caseless -->
+		<!-- Full Metal Jacket -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_473x33mmCaseless_FMJ"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Lead</li>
+						</thingDefs>
+					</filter>
+					<count>3</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>3</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>3</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+							<li>CAL_Cupronickel</li>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>1</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_473x33mmCaseless_FMJ"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+					    <li>CAL_Brass</li>
+						<li>CAL_Cupronickel</li>
+						<li>Steel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Hollow Point -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_473x33mmCaseless_HP"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Lead</li>
+						</thingDefs>
+					</filter>
+					<count>3</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>3</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>3</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+							<li>CAL_Copper</li>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>1</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_473x33mmCaseless_HP"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+							<li>CAL_Brass</li>
+							<li>CAL_Copper</li>
+							<li>Steel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Armor-piercing -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_473x33mmCaseless_AP"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>3</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>3</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>3</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>1</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_473x33mmCaseless_AP"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Armor-piercing incendiary -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_473x33mmCaseless_Incendiary"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>3</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>3</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>3</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>1</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Prometheum</li>
+						</thingDefs>
+					</filter>
+					<count>1</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_473x33mmCaseless_Incendiary"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- High-2 -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_473x33mmCaseless_HE"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>3</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>3</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>3</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>1</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>FSX</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_473x33mmCaseless_HE"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Sabot -->	
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_473x33mmCaseless_Sabot"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>3</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>3</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>3</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>1</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Uranium</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_473x33mmCaseless_Sabot"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		
+		
+		
+		
+		
+		<!-- 5.45x39 Soviet -->
+		<!-- Full Metal Jacket -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_545x39mmSoviet_FMJ"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Lead</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+							<li>CAL_Cupronickel</li>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_545x39mmSoviet_FMJ"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+					    <li>CAL_Brass</li>
+						<li>CAL_Cupronickel</li>
+						<li>Steel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Hollow Point -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_545x39mmSoviet_HP"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Lead</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+							<li>CAL_Copper</li>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_545x39mmSoviet_HP"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+							<li>CAL_Brass</li>
+							<li>CAL_Copper</li>
+							<li>Steel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Armor-piercing -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_545x39mmSoviet_AP"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_545x39mmSoviet_AP"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Armor-piercing incendiary -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_545x39mmSoviet_Incendiary"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Prometheum</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_545x39mmSoviet_Incendiary"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- High-4 -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_545x39mmSoviet_HE"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>FSX</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_545x39mmSoviet_HE"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Sabot -->	
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_545x39mmSoviet_Sabot"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Uranium</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_545x39mmSoviet_Sabot"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<!-- 7.62x39 Soviet -->
+		<!-- Full Metal Jacket -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x39mmSoviet_FMJ"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Lead</li>
+						</thingDefs>
+					</filter>
+					<count>7</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>7</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>7</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+							<li>CAL_Cupronickel</li>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>3</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x39mmSoviet_FMJ"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+					    <li>CAL_Brass</li>
+						<li>CAL_Cupronickel</li>
+						<li>Steel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Hollow Point -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x39mmSoviet_HP"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Lead</li>
+						</thingDefs>
+					</filter>
+					<count>7</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>7</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>7</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+							<li>CAL_Copper</li>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>3</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x39mmSoviet_HP"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+							<li>CAL_Brass</li>
+							<li>CAL_Copper</li>
+							<li>Steel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Armor-piercing -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x39mmSoviet_AP"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>7</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>7</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>7</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>3</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x39mmSoviet_AP"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Armor-piercing incendiary -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x39mmSoviet_Incendiary"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>7</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>7</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>7</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>3</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Prometheum</li>
+						</thingDefs>
+					</filter>
+					<count>3</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x39mmSoviet_Incendiary"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- High-5 -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x39mmSoviet_HE"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>7</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>7</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>7</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>3</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>FSX</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x39mmSoviet_HE"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Sabot -->	
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x39mmSoviet_Sabot"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>7</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>7</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>7</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>3</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Uranium</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x39mmSoviet_Sabot"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		
+		
+		
+		
+		
+		
+		
+		<!-- 7.62x51mm NATO -->
+		<!-- Full Metal Jacket -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x51mmNATO_FMJ"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Lead</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+							<li>CAL_Cupronickel</li>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x51mmNATO_FMJ"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+					    <li>CAL_Brass</li>
+						<li>CAL_Cupronickel</li>
+						<li>Steel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Hollow Point -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x51mmNATO_HP"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Lead</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+							<li>CAL_Copper</li>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x51mmNATO_HP"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+							<li>CAL_Brass</li>
+							<li>CAL_Copper</li>
+							<li>Steel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Armor-piercing -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x51mmNATO_AP"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x51mmNATO_AP"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Armor-piercing incendiary -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x51mmNATO_Incendiary"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Prometheum</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x51mmNATO_Incendiary"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- High-8 -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x51mmNATO_HE"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>FSX</li>
+						</thingDefs>
+					</filter>
+					<count>8</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x51mmNATO_HE"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Sabot -->	
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x51mmNATO_Sabot"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Uranium</li>
+						</thingDefs>
+					</filter>
+					<count>8</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x51mmNATO_Sabot"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		
+		
+		
+		
+		
+		<!-- 7.62x54 mmR -->
+		<!-- Full Metal Jacket -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x54mmR_FMJ"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Lead</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+							<li>CAL_Cupronickel</li>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x54mmR_FMJ"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+					    <li>CAL_Brass</li>
+						<li>CAL_Cupronickel</li>
+						<li>Steel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Hollow Point -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x54mmR_HP"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Lead</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+							<li>CAL_Copper</li>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x54mmR_HP"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+							<li>CAL_Brass</li>
+							<li>CAL_Copper</li>
+							<li>Steel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Armor-piercing -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x54mmR_AP"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x54mmR_AP"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Armor-piercing incendiary -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x54mmR_Incendiary"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Prometheum</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x54mmR_Incendiary"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- High-8 -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x54mmR_HE"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>FSX</li>
+						</thingDefs>
+					</filter>
+					<count>8</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x54mmR_HE"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Sabot -->	
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x54mmR_Sabot"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Uranium</li>
+						</thingDefs>
+					</filter>
+					<count>8</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_762x54mmR_Sabot"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		
+		
+		
+		
+		
+		<!-- 7.92x33mm Kurz -->
+		<!-- Full Metal Jacket -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_792x33mmKurz_FMJ"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Lead</li>
+						</thingDefs>
+					</filter>
+					<count>9</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>9</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>9</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+							<li>CAL_Cupronickel</li>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_792x33mmKurz_FMJ"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+					    <li>CAL_Brass</li>
+						<li>CAL_Cupronickel</li>
+						<li>Steel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Hollow Point -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_792x33mmKurz_HP"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Lead</li>
+						</thingDefs>
+					</filter>
+					<count>9</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>9</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>9</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+							<li>CAL_Copper</li>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_792x33mmKurz_HP"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+							<li>CAL_Brass</li>
+							<li>CAL_Copper</li>
+							<li>Steel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Armor-piercing -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_792x33mmKurz_AP"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>9</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>9</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>9</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_792x33mmKurz_AP"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Armor-piercing incendiary -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_792x33mmKurz_Incendiary"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>9</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>9</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>9</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Prometheum</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_792x33mmKurz_Incendiary"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- High-7 -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_792x33mmKurz_HE"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>9</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>9</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>9</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>FSX</li>
+						</thingDefs>
+					</filter>
+					<count>7</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_792x33mmKurz_HE"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Sabot -->	
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_792x33mmKurz_Sabot"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>9</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>9</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>9</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Uranium</li>
+						</thingDefs>
+					</filter>
+					<count>7</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_792x33mmKurz_Sabot"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		
+		
+		
+		
+		
+		
+		
+		
+		<!-- 3006 Springfield -->
+		<!-- Full Metal Jacket -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_3006Springfield_FMJ"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Lead</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+							<li>CAL_Cupronickel</li>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_3006Springfield_FMJ"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+					    <li>CAL_Brass</li>
+						<li>CAL_Cupronickel</li>
+						<li>Steel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Hollow Point -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_3006Springfield_HP"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Lead</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+							<li>CAL_Copper</li>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_3006Springfield_HP"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+							<li>CAL_Brass</li>
+							<li>CAL_Copper</li>
+							<li>Steel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Armor-piercing -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_3006Springfield_AP"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_3006Springfield_AP"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Armor-piercing incendiary -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_3006Springfield_Incendiary"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Prometheum</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_3006Springfield_Incendiary"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- High-8 -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_3006Springfield_HE"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>FSX</li>
+						</thingDefs>
+					</filter>
+					<count>8</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_3006Springfield_HE"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Sabot -->	
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_3006Springfield_Sabot"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Uranium</li>
+						</thingDefs>
+					</filter>
+					<count>8</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_3006Springfield_Sabot"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<!-- .45-70 Government -->
+		<!-- Full Metal Jacket -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_4570Gov_FMJ"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Lead</li>
+						</thingDefs>
+					</filter>
+					<count>20</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>20</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>20</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+							<li>CAL_Cupronickel</li>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>8</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_4570Gov_FMJ"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+					    <li>CAL_Brass</li>
+						<li>CAL_Cupronickel</li>
+						<li>Steel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Hollow Point -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_4570Gov_HP"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Lead</li>
+						</thingDefs>
+					</filter>
+					<count>20</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>20</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>20</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+							<li>CAL_Copper</li>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>8</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_4570Gov_HP"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+							<li>CAL_Brass</li>
+							<li>CAL_Copper</li>
+							<li>Steel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Armor-piercing -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_4570Gov_AP"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>20</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>20</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>20</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>8</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_4570Gov_AP"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Armor-piercing incendiary -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_4570Gov_Incendiary"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>20</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>20</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>20</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>8</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Prometheum</li>
+						</thingDefs>
+					</filter>
+					<count>8</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_4570Gov_Incendiary"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- High-16 -->
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_4570Gov_HE"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>20</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>20</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>20</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>8</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>FSX</li>
+						</thingDefs>
+					</filter>
+					<count>16</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_4570Gov_HE"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		<!-- Sabot -->	
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_4570Gov_Sabot"]/ingredients</xpath>
+			<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+						</thingDefs>
+					</filter>
+					<count>20</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>20</count>
+				</li>				
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>20</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Copper</li>
+							<li>CAL_Cupronickel</li>
+						</thingDefs>
+					</filter>
+					<count>8</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Uranium</li>
+						</thingDefs>
+					</filter>
+					<count>16</count>
+				</li>
+			</ingredients>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_4570Gov_Sabot"]/fixedIngredientFilter</xpath>
+			<value>
+			<fixedIngredientFilter>
+					<thingDefs>
+						<li>CAL_Copper</li>
+						<li>CAL_Cupronickel</li>
+					</thingDefs>
+			</fixedIngredientFilter>
+			</value>
+		</li>
+		
+		
 		
 		
 		</operations>
