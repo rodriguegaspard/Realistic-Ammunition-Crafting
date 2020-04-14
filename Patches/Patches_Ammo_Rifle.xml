@@ -45,7 +45,7 @@
 						<thingDefs>
 							<li>CAL_Brass</li>
 							<li>CAL_Cupronickel</li>
-							<li>CAL_Steel</li>
+							<li>Steel</li>
 						</thingDefs>
 					</filter>
 					<count>2</count>
@@ -103,7 +103,7 @@
 						<thingDefs>
 							<li>CAL_Brass</li>
 							<li>CAL_Copper</li>
-							<li>CAL_Steel</li>
+							<li>Steel</li>
 						</thingDefs>
 					</filter>
 					<count>2</count>
@@ -192,7 +192,7 @@
 				<li>
 					<filter>
 						<thingDefs>
-							<li>CAL_Steel</li>
+							<li>Steel</li>
 						</thingDefs>
 					</filter>
 					<count>5</count>
@@ -258,7 +258,7 @@
 				<li>
 					<filter>
 						<thingDefs>
-							<li>CAL_Steel</li>
+							<li>Steel</li>
 						</thingDefs>
 					</filter>
 					<count>5</count>
@@ -324,7 +324,7 @@
 				<li>
 					<filter>
 						<thingDefs>
-							<li>CAL_Steel</li>
+							<li>Steel</li>
 						</thingDefs>
 					</filter>
 					<count>5</count>
