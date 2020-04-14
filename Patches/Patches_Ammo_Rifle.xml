@@ -58,11 +58,9 @@
 			<value>
 			<fixedIngredientFilter>
 					<thingDefs>
-					    <li>Steel</li>
-						<li>Chemfuel</li>
-						<li>CAL_Brass</li>
+					    <li>CAL_Brass</li>
 						<li>CAL_Cupronickel</li>
-						<li>CAL_Lead</li>
+						<li>Steel</li>
 					</thingDefs>
 			</fixedIngredientFilter>
 			</value>
@@ -116,11 +114,9 @@
 			<value>
 			<fixedIngredientFilter>
 					<thingDefs>
-					    <li>Steel</li>
-						<li>Chemfuel</li>
-						<li>CAL_Brass</li>
-						<li>CAL_Copper</li>
-						<li>CAL_Lead</li>
+							<li>CAL_Brass</li>
+							<li>CAL_Copper</li>
+							<li>Steel</li>
 					</thingDefs>
 			</fixedIngredientFilter>
 			</value>
@@ -173,9 +169,6 @@
 			<value>
 			<fixedIngredientFilter>
 					<thingDefs>
-					    <li>Steel</li>
-						<li>Chemfuel</li>
-						<li>CAL_Brass</li>
 						<li>CAL_Copper</li>
 						<li>CAL_Cupronickel</li>
 					</thingDefs>
@@ -238,12 +231,8 @@
 			<value>
 			<fixedIngredientFilter>
 					<thingDefs>
-					    <li>Steel</li>
-						<li>Chemfuel</li>
-						<li>CAL_Brass</li>
 						<li>CAL_Copper</li>
 						<li>CAL_Cupronickel</li>
-						<li>Prometheum</li>
 					</thingDefs>
 			</fixedIngredientFilter>
 			</value>
@@ -304,12 +293,8 @@
 			<value>
 			<fixedIngredientFilter>
 					<thingDefs>
-					    <li>Steel</li>
-						<li>Chemfuel</li>
-						<li>CAL_Brass</li>
 						<li>CAL_Copper</li>
 						<li>CAL_Cupronickel</li>
-						<li>FSX</li>
 					</thingDefs>
 			</fixedIngredientFilter>
 			</value>
@@ -370,12 +355,8 @@
 			<value>
 			<fixedIngredientFilter>
 					<thingDefs>
-					    <li>Steel</li>
-						<li>Chemfuel</li>
-						<li>CAL_Brass</li>
 						<li>CAL_Copper</li>
 						<li>CAL_Cupronickel</li>
-						<li>Uranium</li>
 					</thingDefs>
 			</fixedIngredientFilter>
 			</value>
