@@ -8,8 +8,9 @@
 	<match Class="PatchOperationSequence">
 	<success>Always</success>
 		<operations>
+		
 		<!-- 5.56x45mm NATO -->
-				<!-- FMJ -->
+		<!-- FMJ -->
 		<li Class="PatchOperationAdd">
 		<xpath>/Defs/RecipeDef[defName="MakeAmmo_556x45mmNATO_FMJ"]/ingredients</xpath>
 			<value>
@@ -22,7 +23,7 @@
 							<li>CAL_Brass</li>
 						</thingDefs>
 					</filter>
-					<count>19</count>
+					<count>5</count>
 				</li>
 				<li>
 					<filter>
@@ -32,7 +33,7 @@
 							<li>CAL_Plumchalcum</li>
 						</thingDefs>
 					</filter>
-					<count>76</count>
+					<count>10</count>
 				</li>
 				<li>
 					<filter>
@@ -40,7 +41,7 @@
 							<li>CAL_Brass</li>
 						</thingDefs>
 					</filter>
-					<count>28</count>
+					<count>20</count>
 				</li>
 				<li>
 					<filter>
@@ -48,10 +49,27 @@
 							<li>Chemfuel</li>
 						</thingDefs>
 					</filter>
-					<count>57</count>
+					<count>5</count>
 				</li>
 			</value>
 		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>/Defs/RecipeDef[defName="MakeAmmo_556x45mmNATO_FMJ"]/fixedIngredientFilter</xpath>
+			<value>
+				<fixedIngredientFilter>
+					<thingDefs>
+						<li>Steel</li>
+						<li>Chemfuel</li>
+						<li>CAL_Brass</li>
+						<li>CAL_Bronze</li>
+						<li>CAL_Cupronickel</li>
+						<li>CAL_Lead</li>
+						<li>CAL_Plumchalcum</li>
+					</thingDefs>
+				</fixedIngredientFilter>
+			</value>
+		</li>
+		
 		</operations>
 	</match>
 </Operation>
