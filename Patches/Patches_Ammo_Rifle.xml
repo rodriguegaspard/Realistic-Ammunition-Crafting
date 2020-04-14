@@ -10,50 +10,49 @@
 		<operations>
 		<!-- 5.56x45mm NATO -->
 				<!-- FMJ -->
-			<Operation Class="PatchOperationReplace">
-			<xpath>/Defs/RecipeDef[defName="MakeAmmo_556x45mmNATO_FMJ"]/ingredients</xpath>
+		<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="MakeAmmo_556x45mmNATO_FMJ"]/ingredients</xpath>
 			<value>
-					<li>
-						<filter>
-							<thingDefs>
-								<li>Steel</li>
-								<li>CAL_Cupronickel</li>
-								<li>CAL_Bronze</li>
-								<li>CAL_Brass</li>
-							</thingDefs>
-						</filter>
-						<count>19</count>
-					</li>
-					<li>
-						<filter>
-							<thingDefs>
-								<li>Steel</li>
-								<li>CAL_Lead</li>
-								<li>CAL_Plumchalcum</li>
-							</thingDefs>
-						</filter>
-						<count>76</count>
-					</li>
-					<li>
-						<filter>
-							<thingDefs>
-								<li>CAL_Brass</li>
-							</thingDefs>
-						</filter>
-						<count>28</count>
-					</li>
-					<li>
-						<filter>
-							<thingDefs>
-								<li>Chemfuel</li>
-							</thingDefs>
-						</filter>
-						<count>57</count>
-					</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+							<li>CAL_Cupronickel</li>
+							<li>CAL_Bronze</li>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>19</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Steel</li>
+							<li>CAL_Lead</li>
+							<li>CAL_Plumchalcum</li>
+						</thingDefs>
+					</filter>
+					<count>76</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CAL_Brass</li>
+						</thingDefs>
+					</filter>
+					<count>28</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Chemfuel</li>
+						</thingDefs>
+					</filter>
+					<count>57</count>
+				</li>
 			</value>
-		    </Operation>
-		  
-		 <!-- <Operation Class="PatchOperationReplace">
+		</Operation>
+		
 			<xpath>/Defs/RecipeDef[defName="MakeAmmo_556x45mmNATO_FMJ"]/fixedIngredientFilter</xpath>
 			<value>
 					<thingDefs>
