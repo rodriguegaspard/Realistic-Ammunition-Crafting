@@ -5,8 +5,7 @@
         <li>Combat Extended</li>
 		<li>Cupro's Alloys (Continued)</li>
     </mods>
-</Operation>
-	<Operation Class="PatchOperationSequence">
+	<match Class="PatchOperationSequence">
 		<operations>
 		<!-- 5.56x45mm NATO -->
 				<!-- FMJ -->
@@ -543,5 +542,5 @@
 			
 		</operations>
 	</Operation>
-</Operation>
+</match>
 </Patch>
