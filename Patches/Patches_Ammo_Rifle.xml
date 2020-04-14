@@ -56,7 +56,6 @@
 		<li Class="PatchOperationAdd">
 			<xpath>/Defs/RecipeDef[defName="MakeAmmo_556x45mmNATO_FMJ"]/fixedIngredientFilter</xpath>
 			<value>
-				<fixedIngredientFilter>
 					<thingDefs>
 						<li>Steel</li>
 						<li>Chemfuel</li>
@@ -66,7 +65,6 @@
 						<li>CAL_Lead</li>
 						<li>CAL_Plumchalcum</li>
 					</thingDefs>
-				</fixedIngredientFilter>
 			</value>
 		</li>
 		
