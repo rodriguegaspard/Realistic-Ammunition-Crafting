@@ -5,6 +5,7 @@
         <li>Combat Extended</li>
 		<li>Cupro's Alloys (Continued)</li>
     </mods>
+</Operation>
 	<Operation Class="PatchOperationSequence">
 		<operations>
 		<!-- 5.56x45mm NATO -->
