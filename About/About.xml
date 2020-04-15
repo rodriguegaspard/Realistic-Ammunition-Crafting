@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Realistic Ammunition Crafting</name>
-    <packageId>Rosco.RealisticAmmunitionCrafting</packageId>
+	<name>Realistic Ammunition Crafting</name>
 	<author>Rosco</author>
 	<url>https://github.com/rodriguegaspard/Realistic-Ammunition-Crafting</url>
 	<supportedVersions>
 		<li>1.1</li>
 		<li>1.0</li>
 	</supportedVersions>
+	<packageId>Rosco.RealisticAmmunitionCrafting</packageId>
 	<modDependencies>
 		 <li>
 	      <packageId>CETeam.CombatExtended</packageId>
 	      <displayName>Combat Extended</displayName>
 	      <downloadUrl>https://github.com/CombatExtendedRWMod/CombatExtended/releases</downloadUrl>
-	      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1631756268&searchtext=combat+extended</steamWorkshopUrl>
+	      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
 	    </li>
 		<li>
 	      <packageId>Mlie.CuprosAlloys</packageId>
 	      <displayName>Cupro's Alloys (Continued)</displayName>
 	      <downloadUrl>https://github.com/emipa606/CuprosAlloys/releases</downloadUrl>
-	      <steamWorkshopUrl>https://steamcommunity.com/linkfilter/?url=https://github.com/emipa606/CuprosAlloys</steamWorkshopUrl>
+	      <steamWorkshopUrl>steam://url/CommunityFilePage/1543189281</steamWorkshopUrl>
 	    </li>
-	<modDependencies/>
+	</modDependencies>
 	<loadAfter>
 		<li>CETeam.CombatExtended</li>
 		<li>Mlie.CuprosAlloys</li>
-	<loadAfter/>
+	</loadAfter>
 	<description>
 	A patch for Combat Extended and Cupro's Alloys. 
 	This patch adds realistic crafting recipes for most of the ammo added by Combat Extended (i.e bullets now require lead, brass, or equivalent substitutes, as well as chemfuel).
